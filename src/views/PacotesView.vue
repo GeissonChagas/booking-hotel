@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h4>Home</h4>
+    <h4>pacotes</h4>
   </div>
 
 
@@ -14,6 +14,12 @@
 </script>
 
 <style>
+  .banner{
+    background: #003580;
+  }
+  .header{
+    color: #ffff;
+  }
 
 
 </style>
