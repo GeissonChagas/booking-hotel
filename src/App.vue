@@ -16,6 +16,10 @@
           <router-link to="/login">Login</router-link>
         </div>
       </div>
+      <div class="propagandas">
+        <h1>Encontre a sua próxima estadia</h1>
+        <h3>Pesquise ofertas e muito mais ...</h3>
+    </div>
     </div>
   </nav>
 
@@ -29,7 +33,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  width: 100vw;
+  max-width: 100vw;
   
 }
 
@@ -39,10 +43,25 @@ nav {
 }
 
 .banner{
-  display: flex;
-  align-items: center;
   height: 350px;
   background: #003580;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  padding-left: 2rem;
+}
+
+.services{
+  display: flex;
+}
+
+.login{
+  display: flex;
 }
 
 nav a {
@@ -56,9 +75,21 @@ nav a {
   margin: 0 1rem;
 }
 
+nav a:hover {
+  border-bottom: 2px solid #FFF;
+}
+
 nav a.router-link-exact-active {
   color: #FFFFFF;
-
+  border-bottom: 2px solid #fff;
   background: rgba(255, 255, 255, 0.5);
+}
+
+.propagandas{
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 6rem ;
 }
 </style>
