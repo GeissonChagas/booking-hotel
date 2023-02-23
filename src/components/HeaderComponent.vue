@@ -26,6 +26,12 @@
 
 </template>
 
+<script>
+    export default{
+        name:'header-component'
+    }
+</script>
+
 <style scoped>
     nav {
     color: #FFF;
