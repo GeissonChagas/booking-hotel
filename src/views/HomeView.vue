@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h4>Home</h4>
+    <h2>Faça aqui sua pesquisa:</h2>
     <FormularioPesquisa />
   </div>
 
