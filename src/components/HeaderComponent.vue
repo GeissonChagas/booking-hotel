@@ -10,10 +10,10 @@
           <router-link to="/">Início</router-link>
           <router-link to="/pacotes">Pacotes</router-link>
           <router-link to="/voos">Voos</router-link>
-          <router-link to="/translado">Translado</router-link>
+          <router-link to="/passeios">Passeios</router-link>
         </div>
         <div class="login">
-          <router-link to="/cadastro">Cadastre-se</router-link>
+          <router-link to="/cadastro">Cadastro</router-link>
           <router-link to="/login">Login</router-link>
         </div>
       </div>
@@ -87,5 +87,11 @@
     flex-direction: column;
     justify-content: center;
     margin-top: 6rem ;
+    }
+
+    @media screen and (max-width: 768px) {
+      .header{
+        width: 100%;
+      }
     }
 </style>

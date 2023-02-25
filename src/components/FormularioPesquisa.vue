@@ -37,10 +37,12 @@
   </script>
   
   <style scoped>
-    .formulario-pesquisa {
+    .formulario-pesquisa form{
         background-color: #f6f6f6;
         padding: 20px;
         border-radius: 4px;
+        display: flex;
+        flex-wrap: wrap;
     }
     .formulario-pesquisa form{
         display: flex;
@@ -59,7 +61,7 @@
     input {
         padding: 10px;
         border-radius: 4px;
-        border: none;
+        border: none;   
         background-color: #fff;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
@@ -76,5 +78,19 @@
         background-color:#00487a;
         transition: 500ms;
     }
+
+    @media screen and (max-width:768px) {
+
+      .formulario-pesquisa form{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100vw;
+    }
+    .formulario-pesquisa label, .formulario-pesquisa input {
+      width: 200px;
+      margin: 0.5rem 0;
+    }
+  }
   </style>
   

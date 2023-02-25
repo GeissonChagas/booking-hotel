@@ -18,9 +18,9 @@ const routes = [
     component: () => import('../views/VoosView.vue')
   },
   {
-    path: '/translado',
-    name: 'translado',
-    component: () => import('../views/TransladoView.vue')
+    path: '/passeios',
+    name: 'passeios',
+    component: () => import('../views/PasseiosView.vue')
   },
   {
     path: '/cadastro',

@@ -24,11 +24,17 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  max-width: 100vw;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
   
 }
 :placeholder-shown, ::placeholder, input, button, a {
   font-family: 'Montserrat', sans-serif;
+}
+
+li{
+  list-style: none;
 }
 
 </style>

@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h4>translado</h4>
+      <h4>O que fazer em:</h4>
     </div>
   
   
@@ -8,7 +8,7 @@
   
   <script>
     export default{
-      name: 'translado-view'
+      name: 'passeios-view'
     }
   
   </script>
