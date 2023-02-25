@@ -62,7 +62,7 @@
 
     nav a {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
     font-weight: bold;
     color: #FFFFFF;

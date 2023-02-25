@@ -90,8 +90,10 @@
           <h4>Casas</h4>
           <p>600 opções</p>
         </li>
-      </ul>
-      
+      </ul> 
+  </div>
+  <div>
+    <FooterComponent />
   </div>
 
   
@@ -100,11 +102,13 @@
 
 <script>
 import FormularioPesquisa from "../components/FormularioPesquisa.vue";
+import FooterComponent from "@/components/FooterComponent.vue";
 
 export default {
   name: "pacotes-view",
   components: {
     FormularioPesquisa,
+    FooterComponent,
   },
 };
 </script>
@@ -116,31 +120,33 @@ export default {
   margin: 1rem auto 0 auto;
   flex-wrap: wrap;
   height: 220px;
-  max-width: 1280px;
+  max-width: 80vw;
 }
 
 .promocoes-card{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-image: url(https://q-xx.bstatic.com/xdata/images/xphoto/714x300/182431478.jpeg?k=fcbb6d5552a1d4ff338978206c449077ab8ad696050cfd7e4edef1ddc11225cc&o=);
   background-size: cover;
   color: #fff;
   width: 470px;
   box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 2rem;
 }
 
 .promocoes-card2 {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-image: url(https://th.bing.com/th/id/OIP.Gaz_TpDGA00kwN7TWL9sUQHaFj?pid=ImgDet&w=1024&h=768&rs=1);
   background-size: cover;
   color: #fff;
   width: 470px;
   box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 2rem;
 }
 
 button {
@@ -155,6 +161,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0.25rem auto;
 }
 
 button:hover {
@@ -168,7 +175,7 @@ button:hover {
   justify-content: space-between;
   margin: 1rem auto;
   flex-wrap: wrap;
-  max-width: 1280px;
+  max-width: 80vw;
 }
 
 .descubra-br {
@@ -187,7 +194,7 @@ button:hover {
 
 .alojamentos-container{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   width: 80vw;
   margin: 0 auto;
@@ -209,11 +216,16 @@ button:hover {
   margin: 0.5rem auto 0 auto;
 }
 
+.cards-alojamentos{
+    margin: 0 auto;
+  }
+
 .cards-alojamentos img{
   width: 25rem;
   height: 15rem;
   border-radius: 8px;
 }
+
 
 @media screen and (min-width: 1450px) {
   .cards-alojamentos img{
@@ -233,8 +245,5 @@ button:hover {
     margin: 10rem auto;
   }
 
-  button{
-    margin: 0.25rem auto;
-  }
 }
 </style>

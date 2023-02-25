@@ -37,5 +37,9 @@ li{
   list-style: none;
 }
 
+a{
+  text-decoration: none;
+}
+
 </style>
 
