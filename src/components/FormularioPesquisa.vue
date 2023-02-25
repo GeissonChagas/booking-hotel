@@ -51,10 +51,10 @@
         display: flex;
     }
     label {
-        font-weight: bold;
+        font-weight: bold;                  
         display: flex;
         align-items: center;
-        margin: 0 1rem;
+        margin: 0    1rem;
     }
     input {
         padding: 10px;

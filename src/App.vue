@@ -27,7 +27,7 @@
   max-width: 100vw;
   
 }
-:placeholder-shown, ::placeholder, input {
+:placeholder-shown, ::placeholder, input, button, a {
   font-family: 'Montserrat', sans-serif;
 }
 
