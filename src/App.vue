@@ -28,6 +28,7 @@
   margin: 0;
   padding: 0;
   
+  
 }
 :placeholder-shown, ::placeholder, input, button, a {
   font-family: 'Montserrat', sans-serif;
@@ -40,6 +41,11 @@ li{
 a{
   text-decoration: none;
 }
+
+body {
+  overflow-x: hidden;
+}
+
 
 </style>
 
