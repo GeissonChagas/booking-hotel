@@ -24,15 +24,19 @@
 </template>
 
 <script>
+
 export default {
-  data() {
-    return {
-      nome: '',
-      email: '',
-      senha: '',
-      confirmarSenha: ''
-    }
-  }
+    data() {
+        return {
+            nome: "",
+            email: "",
+            senha: "",
+            confirmarSenha: ""
+        };
+    },
+    components: { 
+
+     }
 }
 </script>
 

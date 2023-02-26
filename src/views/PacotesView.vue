@@ -7,8 +7,12 @@
 </template>
 
 <script>
+
   export default{
-    name: 'pacotes-view'
+    name: 'pacotes-view',
+    components:{
+
+    }
   }
 
 </script>

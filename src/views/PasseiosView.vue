@@ -3,12 +3,15 @@
       <h4>O que fazer em:</h4>
     </div>
   
-  
   </template>
   
   <script>
+
     export default{
-      name: 'passeios-view'
+      name: 'passeios-view',
+      components:{
+
+      }
     }
   
   </script>

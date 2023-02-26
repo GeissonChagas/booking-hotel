@@ -92,23 +92,15 @@
         </li>
       </ul> 
   </div>
-  <div>
-    <FooterComponent />
-  </div>
-
-  
 
 </template>
 
 <script>
 import FormularioPesquisa from "../components/FormularioPesquisa.vue";
-import FooterComponent from "@/components/FooterComponent.vue";
-
 export default {
   name: "pacotes-view",
   components: {
     FormularioPesquisa,
-    FooterComponent,
   },
 };
 </script>

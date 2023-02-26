@@ -5,23 +5,18 @@
     <div>
       <FormularioPesquisa />
     </div>
-    <div>
-      <FooterComponent />
-    </div>
-  
   
   </template>
   
   <script>
 
   import FormularioPesquisa from '@/components/FormularioPesquisa.vue';
-  import FooterComponent from '@/components/FooterComponent.vue';
+
 
     export default{
       name: 'voos-view',
       components: {
-        FormularioPesquisa,
-        FooterComponent
+        FormularioPesquisa
       }
     }
   
