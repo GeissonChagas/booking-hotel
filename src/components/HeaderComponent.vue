@@ -13,8 +13,7 @@
           <i class="fas fa-times"></i>
         </div>
         <div class="menu" :class="{ 'show-menu': showMenu }">
-          <h4>BookHotels  <font-awesome-icon :icon="['fas', 'plane']" /></h4>
-
+          <h4 class="responsive">BookHotels  <font-awesome-icon :icon="['fas', 'plane']" /></h4>
           <router-link to="/">Início</router-link>
           <router-link to="/pacotes">Pacotes</router-link>
           <router-link to="/voos">Voos</router-link>
@@ -64,7 +63,7 @@ nav {
 .banner {
   height: 350px;
   background: #003580;
-  max-width: 100vw;
+  max-width: 100vw; 
 }
 
 .header {
@@ -159,7 +158,15 @@ a:hover{
     
 }
 
-@media screen and (max-width: 768px) {
+.responsive{
+  display: none;
+}
+
+@media screen and (max-width: 820px) {
+
+  .responsive{
+    display: block;
+  }
   .header {
     flex-direction: column;
     align-items: flex-start;
@@ -190,6 +197,14 @@ a:hover{
     transition: transform 0.7s ease-in-out
     
   }
+}
+  
+
+  @media screen and (max-width:414px) {
+    .close-icon {
+      top: 1.25rem;
+      right: 6rem;
+    }
 }
 </style>
 

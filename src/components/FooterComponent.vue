@@ -45,6 +45,7 @@
     align-items: center;
     justify-content: center;
     height: 350px;
+    margin-top: 2rem;
   }
   
   .contato {
