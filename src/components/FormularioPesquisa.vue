@@ -98,5 +98,5 @@ button {
 button:hover {
   background-color: #00487a;
   transition: 500ms;
-}
+} 
 </style>

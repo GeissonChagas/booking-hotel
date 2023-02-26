@@ -13,6 +13,8 @@
           <i class="fas fa-times"></i>
         </div>
         <div class="menu" :class="{ 'show-menu': showMenu }">
+          <h4>BookHotels  <font-awesome-icon :icon="['fas', 'plane']" /></h4>
+
           <router-link to="/">Início</router-link>
           <router-link to="/pacotes">Pacotes</router-link>
           <router-link to="/voos">Voos</router-link>
@@ -183,7 +185,10 @@ a:hover{
     top: 0;
     left: 0;
     width: 100%;
-    background: #3b7edb;
+    background: #003580;
+    box-shadow: 4px 2px 2px rgba(255,255,255,0.5);
+    transition: transform 0.7s ease-in-out
+    
   }
 }
 </style>
