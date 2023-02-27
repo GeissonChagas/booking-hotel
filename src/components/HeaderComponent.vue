@@ -123,7 +123,7 @@ a:hover{
   max-width: 70vw;
   height: 100%;
   background: #003580;
-  
+  z-index: 2;
 }
 
 
@@ -153,7 +153,7 @@ a:hover{
     position: absolute;
     top: 1rem;
     right: 15rem;
-    z-index: 1;
+    z-index: 3;
     scale: 1.25;
     
 }

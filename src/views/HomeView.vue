@@ -119,7 +119,7 @@ export default {
 .carousel img{
   width: 100vw;
   max-width: 1980px;
-  height: 550px;
+  height: 600px;
 }
 .promocoes {
   display: flex;
@@ -240,7 +240,13 @@ button:hover {
     height: 10rem;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 820px) {
+
+  .carousel img{
+    height: 500px;
+    z-index: 0;
+  }
+
   .promocoes{
     width: 100vw;
   }
@@ -249,10 +255,10 @@ button:hover {
   }
 
   .descubra-br{
-    margin: 10rem auto;
+    margin: 11rem auto 2rem auto
   }
 
-  @media screen and (max-width: 414px;) {
+  @media screen and (max-width: 414px) {
     .carousel img{
       height: 300px;
     }
