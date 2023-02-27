@@ -1,58 +1,62 @@
 <template>
-  <div>
-    <h2>Faça aqui sua pesquisa:</h2>
-    <FormularioPesquisa />
-  </div>
-  <div class="promocoes">
-    <div class="promocoes-card">
-      <h4>Conheça lugares novos com nossos pacotes</h4>
-      <p>Oportunidades nacionais e internacionais</p>
-      <button>Saiba mais</button>
+ <div>
+    <div class="carousel">
+      <CarouselComponent />
     </div>
-    <div class="promocoes-card2">
-      <h4>Aproveite o verão no litoral</h4>
-      <p>Pacotes promocionais para praias em todo Brasil</p>
-      <button>Saiba mais</button>
+      <h2>Faça aqui sua pesquisa:</h2>
+      <FormularioPesquisa />
     </div>
-  </div>
+    <div class="promocoes">
+      <div class="promocoes-card">
+        <h4>Conheça lugares novos com nossos pacotes</h4>
+        <p>Oportunidades nacionais e internacionais</p>
+        <button>Saiba mais</button>
+      </div>
+      <div class="promocoes-card2">
+        <h4>Aproveite o verão no litoral</h4>
+        <p>Pacotes promocionais para praias em todo Brasil</p>
+        <button>Saiba mais</button>
+      </div>
+    </div>
 
-  <div class="descubra-br">
-    <h2>Descubra no Brasil</h2>
-    <ul class="cards-container">
-      <li class="cards-descubra">
-        <img
-          src="https://q-xx.bstatic.com/xdata/images/city/250x250/653641.jpg?k=29b8706ee4bff7b870ca35a698c5ac4be003b4122b00035a9d4a572d3101b1fe&o="
-          alt="imagem rj"
-        />
-        <h4>Local</h4>
-        <p>600 alojamentos</p>
-      </li>
-      <li class="cards-descubra">
-        <img
-          src="https://q-xx.bstatic.com/xdata/images/city/250x250/653646.jpg?k=0a8eb3999748f5b12b29f6bd5492a12b7f15a37535e572ea91403098d1588d38&o="
-          alt="imagem sp"
-        />
-        <h4>São Paulo</h4>
-        <p>500 alojamentos</p>
-      </li>
-      <li class="cards-descubra">
-        <img
-          src="https://q-xx.bstatic.com/xdata/images/city/250x250/349399.jpg?k=6f023ae905561a547be6cc5cb117571b4a1425b633e767cdbbf797bb5225dd18&o="
-          alt="imagem gramado"
-        />
-        <h4>Gramado</h4>
-        <p>390 alojamentos</p>
-      </li>
-      <li class="cards-descubra">
-        <img
-          src="https://q-xx.bstatic.com/xdata/images/city/250x250/653621.jpg?k=7d0330a52ee7350d5d38c6cbdf7349f4798889706117e38e74f04e631e09b31b&o="
-          alt="imagem gramado"
-        />
-        <h4>Porto de Galinhas</h4>
-        <p>200 alojamentos</p>
-      </li>
-    </ul>
-  </div>
+    <div class="descubra-br">
+      <h2>Descubra no Brasil</h2>
+      <ul class="cards-container">
+        <li class="cards-descubra">
+          <img
+            src="https://q-xx.bstatic.com/xdata/images/city/250x250/653641.jpg?k=29b8706ee4bff7b870ca35a698c5ac4be003b4122b00035a9d4a572d3101b1fe&o="
+            alt="imagem rj"
+          />
+          <h4>Local</h4>
+          <p>600 alojamentos</p>
+        </li>
+        <li class="cards-descubra">
+          <img
+            src="https://q-xx.bstatic.com/xdata/images/city/250x250/653646.jpg?k=0a8eb3999748f5b12b29f6bd5492a12b7f15a37535e572ea91403098d1588d38&o="
+            alt="imagem sp"
+          />
+          <h4>São Paulo</h4>
+          <p>500 alojamentos</p>
+        </li>
+        <li class="cards-descubra">
+          <img
+            src="https://q-xx.bstatic.com/xdata/images/city/250x250/349399.jpg?k=6f023ae905561a547be6cc5cb117571b4a1425b633e767cdbbf797bb5225dd18&o="
+            alt="imagem gramado"
+          />
+          <h4>Gramado</h4>
+          <p>390 alojamentos</p>
+        </li>
+        <li class="cards-descubra">
+          <img
+            src="https://q-xx.bstatic.com/xdata/images/city/250x250/653621.jpg?k=7d0330a52ee7350d5d38c6cbdf7349f4798889706117e38e74f04e631e09b31b&o="
+            alt="imagem gramado"
+          />
+          <h4>Porto de Galinhas</h4>
+          <p>200 alojamentos</p>
+        </li>
+      </ul>
+    </div>
+
 
   <div class="descubra-alojamentos">
     <h2>Escolha o onde se hospedar</h2>
@@ -97,15 +101,26 @@
 
 <script>
 import FormularioPesquisa from "../components/FormularioPesquisa.vue";
+import CarouselComponent from "@/components/CarouselComponent.vue";
+
+
 export default {
   name: "pacotes-view",
   components: {
     FormularioPesquisa,
+    CarouselComponent
+
   },
 };
 </script>
 
 <style scooped>
+
+.carousel img{
+  width: 100vw;
+  max-width: 1980px;
+  height: 550px;
+}
 .promocoes {
   display: flex;
   justify-content: space-around;
@@ -235,6 +250,13 @@ button:hover {
 
   .descubra-br{
     margin: 10rem auto;
+  }
+
+  @media screen and (max-width: 414px;) {
+    .carousel img{
+      height: 300px;
+    }
+    
   }
 
 }
