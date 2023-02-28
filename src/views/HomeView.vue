@@ -276,6 +276,11 @@ button:hover {
       width: 250px;
       height: 200px;
     }
+
+    .alojamentos-container{
+      margin: 0 auto;
+      padding: 0;
+    }
     
   }
 
