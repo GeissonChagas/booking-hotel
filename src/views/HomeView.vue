@@ -262,6 +262,20 @@ button:hover {
     .carousel img{
       height: 300px;
     }
+
+    .descubra-br{
+      margin: 15rem auto 0 auto;
+      justify-content: center;
+    }
+
+    .cards-container{
+      justify-content: center;
+    }
+
+    .cards-alojamentos img{
+      width: 250px;
+      height: 200px;
+    }
     
   }
 
