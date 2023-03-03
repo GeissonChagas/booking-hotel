@@ -18,11 +18,6 @@ const routes = [
     component: () => import('../views/VoosView.vue')
   },
   {
-    path: '/passeios',
-    name: 'passeios',
-    component: () => import('../views/PasseiosView.vue')
-  },
-  {
     path: '/cadastro',
     name: 'cadastro',
     component: () => import('../views/CadastroView.vue')

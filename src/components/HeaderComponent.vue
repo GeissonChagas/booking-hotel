@@ -17,7 +17,6 @@
           <router-link to="/">Início</router-link>
           <router-link to="/pacotes">Pacotes</router-link>
           <router-link to="/voos">Voos</router-link>
-          <router-link to="/passeios">Passeios</router-link>
           <router-link to="/cadastro">Cadastro</router-link>
           <router-link to="/login">Login</router-link>
         </div>
