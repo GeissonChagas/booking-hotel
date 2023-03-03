@@ -1,39 +1,17 @@
-# booking-hotel
 
-## Project setup
-```
-npm install
-```
+# Booking Hotel
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Este é um projeto de aplicativo de reserva de hotéis e pacotes turísticos em Vue.js. Utilizamos a biblioteca FontAwesome para importação de ícones e a biblioteca Swiper para criar um carrossel de imagens.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Instalação
 
-### Lints and fixes files
-```
-npm run lint
-```
+1. Clone o repositório: `git clone https://github.com/seu-usuario/hotel-booking-app.git`
+2. Instale as dependências: `npm install`
 
-### Características:
+## Observação: 
 
-    [  ]- Preparar layout inicial.
+- Projeto ainda não finalizado... 
 
-    [  ]- Pesquisa de hotéis: permita que os usuários pesquisem hotéis por cidade, datas de check-in e check-out e número de hóspedes.
+## Prints: 
 
-    [  ]- Exibição de resultados: exiba os resultados da pesquisa em uma lista ou em um mapa interativo, mostrando os preços, a classificação, as avaliações e outras informações relevantes.
-
-    [  ]- Filtros de pesquisa: permita que os usuários filtrem os resultados da pesquisa com base em critérios adicionais, como preço, classificação, comodidades, distância do centro da cidade, entre outros.
-
-    [  ]- Reservas: permita que os usuários reservem um quarto em um hotel selecionado, fornecendo informações de pagamento e confirmação da reserva.
-
-    [  ]- Gerenciamento de conta: permita que os usuários criem uma conta para salvar suas preferências de pesquisa, histórico de reservas e informações de pagamento.
-
-    [  ]- Integração de terceiros: integre com APIs de reservas de hotéis de terceiros, como o Booking.com ou o Expedia, para acessar um catálogo maior de hotéis.
-
-    [  ]- Avaliações e comentários: permita que os usuários avaliem e comentem sobre suas experiências em hotéis para ajudar outros usuários a fazer escolhas informadas.
+![print](https://user-images.githubusercontent.com/115817581/221940633-1dc270b2-26c2-42a0-9fe8-59f52eb854ad.png)
